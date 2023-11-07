@@ -1,3 +1,5 @@
 FROM alpine
 
-COPY main.cpp /app/main.cpp
+WORKDIR /APP
+
+COPY main.cpp .
